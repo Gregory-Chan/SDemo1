@@ -8,6 +8,6 @@ public class AverageTests {
     public void test2() {
         int[] testArray = {1,2,3};
         Average test = new Average();
-        assertEquals(1, test.getAverage(testArray));
+        assertEquals(2, test.getAverage(testArray));
     }
 }
